@@ -10,11 +10,12 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Overview
-This project explores the use of various machine learning algorithms on the Human Activity Recognition data set. The data set contains accelerometer data for participants, along with a determination of how well the participant performed each exercise (Class A through E).
+This project explores the use of various machine learning algorithms on the Human Activity Recognition data set. The data set contains accelerometer data for participants, along with a determination of how well the participant performed each exercise (Class A through E). You can read more about the Weight Lifting Exercise Dataset at this location: 
+[Human Activity Recognition](https://web.archive.org/web/20161224072740/http:/groupware.les.inf.puc-rio.br/har)  
 
 The data sets for this project are found here:  
-*[Training Data](https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv)  
-*[Test Data](https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv)  
+* [Training Data](https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv)  
+* [Test Data](https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv)  
 
 The training data is used to train 5 separate models: **Decision Trees, Random Forest, Gradient Boosted Trees, Linear Discriminant Analysis, and Naive Bayes.** The results of these models are compared for prediction accuracy. The most accurate models are found to be **Random Forest** and **Gradient Boosted Trees**. These two models are used to make predictions using the test data.
 
